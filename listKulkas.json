@@ -1,0 +1,78 @@
+{
+    "posts": [],
+    "comment": [],
+    "Kulkas": [{
+            "id": 1,
+            "gambar": "https://i.ibb.co/616fHFZ/AQUA-AQR-D270-L-1.jpg",
+            "nama": "Kulkas Aqua AQR-D270",
+            "harga": 2780000,
+            "stok": 12
+        },
+        {
+            "id": 2,
+            "gambar": "https://i.ibb.co/KjkNBqQ/Keunggulan-Kulkas-Aqua-AQR-575-IG.jpg",
+            "nama": "Kulkas Aqua AQR-575",
+            "harga": 5200000,
+            "stok": 14
+        },
+        {
+            "id": 3,
+            "gambar": "https://i.ibb.co/qYwm4cf/Kulkas-Aqua-Inverter.jpg",
+            "nama": "Kulkas Aqua Inverter",
+            "harga": 2900000,
+            "stok": 11
+        },
+        {
+            "id": 4,
+            "gambar": "https://i.ibb.co/vzpsZpq/Kulkas-Aqua.png",
+            "nama": "Kulkas Aqua",
+            "harga": 1830000,
+            "stok": 17
+        },
+        {
+            "id": 5,
+            "gambar": "https://i.ibb.co/sQKZ9Gb/Kulkas-GEA.jpg",
+            "nama": "Kulkas GEA",
+            "harga": 3750000,
+            "stok": 12
+        },
+        {
+            "id": 6,
+            "gambar": "https://i.ibb.co/Bn5t1MP/Kulkas-LG.jpg",
+            "nama": "Kulkas LG",
+            "harga": 7450000,
+            "stok": 11
+        },
+        {
+            "id": 7,
+            "gambar": "https://i.ibb.co/19fBdyL/Kulkas-Panasonic.png",
+            "nama": "Kulkas Panasonic",
+            "harga": 4500000,
+            "stok": 12
+        },
+        {
+            "id": 8,
+            "gambar": "https://i.ibb.co/02vJVX4/Kulkas-Polytron.jpg",
+            "nama": "Kulkas Polytron",
+            "harga": 3250000,
+            "stok": 14
+        },
+        {
+            "id": 9,
+            "gambar": "https://i.ibb.co/84MvRHP/Kulkas-SAMSUNG.jpg",
+            "nama": "Kulkas Samsung",
+            "harga": 5750000,
+            "stok": 16
+        },
+        {
+            "id": 10,
+            "gambar": "https://i.ibb.co/85Y9rFH/Sharp.jpg",
+            "nama": "Kulkas Sharp",
+            "harga": 1750000,
+            "stok": 13
+        }
+    ],
+    "profile": {
+        "name": "typicode"
+    }
+}
