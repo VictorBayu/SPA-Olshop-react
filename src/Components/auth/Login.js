@@ -1,7 +1,5 @@
-import React, { useCallback, useContext, Component } from 'react'
-import { AuthContext } from "./Auth";
+import React, { Component } from 'react'
 import app from '../config/fire';
-import { Redirect, withRouter } from 'react-router-dom';
 import Link from '@material-ui/core/Link';
 import Avatar from "@material-ui/core/Avatar";
 import Button from "@material-ui/core/Button";
@@ -11,30 +9,9 @@ import Typography from "@material-ui/core/Typography";
 import Paper from "@material-ui/core/Paper";
 import Grid from '@material-ui/core/Grid';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import { makeStyles } from '@material-ui/core/styles';
-import Container from "@material-ui/core/Container";
 import Box from '@material-ui/core/Box';
 import { withStyles } from '@material-ui/core';
-import SignUp from './SignUp';
 
-// const Login = ({ history }) => {
-//     const handleLogin = useCallback(async event => {
-//         event.preventDefault();
-//         const { email, password } = event.target.elements;
-//         try {
-//             await app
-//                 .auth()
-//                 .signInWithEmailAndPassword(email.value, password.value);
-//             history.push("/");
-//         } catch (e) {
-//             alert(e);
-//         }
-//     }, [history]);
-//     const { currentUser } = useContext(AuthContext);
-//     if (currentUser) {
-//         return <Redirect to="/" />;
-//     }
 function Copyright() {
     return (
         <Typography variant="body2" color="textSecondary" align="center">
@@ -176,18 +153,7 @@ class Login extends Component {
                             >
                                 Sign Up
                             </Button>
-                            {/* <Grid container>
-                                <Grid item xs>
-                                    <Link href={<SignUp />} variant="body2">
-                                        Forgot password?
-                                    </Link>
-                                </Grid>
-                                <Grid item>
-                                    <Link href={<SignUp />} variant="body2">
-                                        {"Don't have an account? Sign Up"}
-                                    </Link>
-                                </Grid>
-                            </Grid> */}
+
                             <Box mt={5}>
                                 <Copyright />
                             </Box>
@@ -195,78 +161,6 @@ class Login extends Component {
                     </div>
                 </Grid>
             </Grid>
-
-            // <Container component="main" maxWidth="xs">
-            //     <Paper className={classes.paper}>
-            //         <Avatar className={classes.avatar}>
-            //             <LockOutlinedIcon />
-            //         </Avatar>
-            //         <Typography component="h1" variant="h5">
-            //             Sign in
-            //             </Typography>
-            //         <TextField
-            //             variant="outlined"
-            //             margin="normal"
-            //             fullWidth
-            //             id="email"
-            //             label="Email Address"
-            //             name="email"
-            //             type="email"
-            //             onChange={this.handleChange}
-            //             value={this.state.email}
-            //         />
-            //         <TextField
-            //             variant="outlined"
-            //             margin="normal"
-            //             fullWidth
-            //             name="password"
-            //             label="Password"
-            //             type="password"
-            //             id="password"
-            //             onChange={this.handleChange}
-            //             value={this.state.password}
-            //         />
-            //         {loginError && (
-            //             <Typography component="p" className={classes.errorText}>
-            //                 Incorrect email or password.
-            //             </Typography>
-            //         )}
-            //         <Button
-            //             type="button"
-            //             fullWidth
-            //             variant="contained"
-            //             color="primary"
-            //             className={classes.submit}
-            //             onClick={this.login}
-            //         >
-            //             Sign In
-            //             </Button>
-            //         <Link href={<SignUp />} variant="body2">
-            //             {"Don't have an account? Sign Up"}
-            //         </Link>
-            //     </Paper>
-            //     <Box mt={5}>
-            //         <Copyright />
-            //     </Box>
-            // </Container>
-
-            // <div>
-            //     <h1>Login</h1>
-            //     <form>
-            //         <label>
-            //             Email
-            //         <input name="email" type="email" placeholder="Email"
-            //                 onChange={this.handleChange} value={this.state.email} />
-            //         </label>
-            //         <label>
-            //             Password
-            //         <input name="password" type="password" placeholder="Password"
-            //                 onChange={this.handleChange} value={this.state.password} />
-            //         </label>
-            //         <button onClick={this.login}>Login</button>
-            //         <button onClick={this.signup}>SignUp</button>
-            //     </form>
-            // </div>
         )
     }
 }

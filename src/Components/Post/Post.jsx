@@ -48,10 +48,6 @@ const Post = (Victor) => {
             </div>
           </div>
         </div>
-        {/* <p className="id">Id Produk : {Victor.id}</p>
-        <p className="namaProduk">Nama Barang : {Victor.nama}</p>
-        <p className="hargaproduk">Harga : Rp {Victor.harga}</p>
-        <p className="stok">Stok : {Victor.stok}</p> */}
       </div>
     </div>
   );

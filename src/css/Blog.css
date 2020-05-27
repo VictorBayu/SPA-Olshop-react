@@ -1,0 +1,41 @@
+.comment {
+    width: 70%;
+    padding: 2px;
+    border: 2px solid rgba(255, 123, 0, 0.432);
+    border-radius: 4px;
+    margin-bottom: 4px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+    /* display: flex; */
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+
+.gambar-user {
+    height: 80px;
+    width: 80px;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+/*
+.gambar-user img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.konten-comment {
+    flex: 1;
+}
+
+.konten-comment div.nama-comment {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.konten-comment p.isi-artikel {
+    font-size: 16px;
+    margin-bottom: 10px;
+} */
